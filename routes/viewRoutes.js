@@ -15,4 +15,5 @@ router.get('/tour/:slug',viewsController.getTour)
 router.get('/:id',viewsController.getAccount)
 
 router.get('/:id/myReviews',viewsController.getAccountReviews)
+
 module.exports = router;
